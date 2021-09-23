@@ -1,6 +1,6 @@
-# Secret Sharing exercise
+# Secret Sharing
 
-We’ll be using the Ubuntu library **libgfshare**, which you can install in any Unix machine. 
+We’ll be using the Ubuntu library **[libgfshare](https://www.howtoinstall.me/ubuntu/18-04/libgfshare-bin/)**, which you can install in any Unix machine. 
 
 In Linux, you can do so by entering the following commands in the terminal:
 
@@ -11,11 +11,12 @@ In Mac, you can use
 
     brew install libgfshare
 
-The library contains a few command line tools related to using Shamir’s Secret Sharing scheme:
+The library contains a few command line tools related to using Shamir’s Secret Sharing scheme: [gfsplit](https://manpages.ubuntu.com/manpages/focal/en/man1/gfsplit.1.html) and [gfcombine](https://manpages.ubuntu.com/manpages/focal/en/man1/gfcombine.1.html).
 
     gfsplit     – splits a file into a number of shares
     gfcombine   – combines a number of shares to form the original file
 
+## Exercise
 
 1. The current repository contains all the existing shares of a secret file. Using the *gfcombine* command, recover the secret file. 
 
